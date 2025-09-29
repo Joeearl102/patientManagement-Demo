@@ -1,0 +1,15 @@
+### Create a new patient entity
+POST http://localhost:4004/api/patients
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+
+{
+  "name": "nico Grpc updated",
+  "email": "nico@example.com",
+  "address": "1526 main street",
+  "dateOfBirth": "1995-10-11",
+  "registeredDate": "2024-02-11"
+}
+
+###
