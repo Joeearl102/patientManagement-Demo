@@ -9,7 +9,6 @@ public class PatientIntegrationTest {
 
     @BeforeAll
     static void setUp() {
-
         RestAssured.baseURI = "http://localhost:4004/";
     }
 

@@ -5,11 +5,11 @@ Content-Type: application/json
 
 
 {
-  "name": "nico Grpc updated",
-  "email": "nico@example.com",
-  "address": "1526 main street",
+  "name": "King Jerry Kafka",
+  "email": "kingJerry@example.com",
+  "address": "2122 main street",
   "dateOfBirth": "1995-10-11",
-  "registeredDate": "2024-02-11"
+  "registeredDate": "2024-02-12"
 }
 
 ###

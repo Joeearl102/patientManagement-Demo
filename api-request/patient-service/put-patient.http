@@ -1,10 +1,11 @@
 ### update an existing patient
-PUT http://localhost:4004/api/patients/123e4567-e89b-12d3-a456-426614174001
+PUT http://localhost:4004/api/patients/77a0f998-95c5-4442-b7be-ff30f1267f27
+Authorization: Bearer {{token}}
 Content-Type: application/json
 
 {
-  "name": "Ken Den UPDATED2",
-  "email": "ken@example.com",
-  "address": "2236 main street 6",
-  "dateOfBirth": "1994-10-05"
+  "name": "Chimp Ken",
+  "email": "chimpKen@example.com",
+  "address": "898 Willow St, Springfield",
+  "dateOfBirth": "1987-10-17"
 }
